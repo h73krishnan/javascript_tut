@@ -7,4 +7,7 @@ import {helloJS} from "./user.js"
 // user.primeNum();
 // didn't work
 
-helloJS();
+
+// setTimeout(() =>{
+    helloJS(24);
+// },3000)

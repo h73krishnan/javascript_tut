@@ -13,6 +13,6 @@
 //     console.log(`User is ${user.age} years old`);
 // }
 
-export const helloJS = () =>{
-    console.log("Here we get the answer");
+export const helloJS = (num) =>{
+    console.log("Here we get the answer", num);
 }
