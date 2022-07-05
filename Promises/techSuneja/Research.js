@@ -40,22 +40,22 @@ function getDatas(){
 // }
 
 // promises
-function createdata(newdata){
+// function createdata(newdata){
 
-    return new Promise((resolve, reject) =>{
-        setTimeout(() =>{
-            datas.push(newdata);
-            let error = true;
-            if (!error){
-                resolve();
-            }else{
-                reject("Kuch sahi nhi hai");
-            }
+//     return new Promise((resolve, reject) =>{
+//         setTimeout(() =>{
+//             datas.push(newdata);
+//             let error = true;
+//             if (!error){
+//                 resolve();
+//             }else{
+//                 reject("Kuch sahi nhi hai");
+//             }
 
-        }, 2000);
-    })
+//         }, 2000);
+//     })
    
-}
+// }
 // w/o callback
 // createdata({name: "Vivek", Profession: "Software Engineer"}, getDatas);
 // w callback
